@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Sandeep Kumar Kadam
-title: Senior Data & Systems Engineer
+title: Senior Database & Platform Engineer
 email: sunnysandeep14@gmail.com
 website: thesunnykadam.github.io
 
@@ -15,17 +15,17 @@ website: thesunnykadam.github.io
 darkmode: false
 
 # Social links
-twitter_username: sunnysandeep161
+#twitter_username: sunnysandeep161
 github_username:  thesunnykadam
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
 instagram_username: thesunnykadam
-linkedin_username: thesunnykadam
+linkedin_username: thekadamsandeep
 # xing_username: jekyll
 # pinterest_username: jekyll
-youtube_username: thesunnykadam0
+#youtube_username: thesunnykadam0
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
 
@@ -47,10 +47,14 @@ additional_links:
 # About Section
 # about_title: About Me
 about_profile_image: images/profile.jpg
-about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Sandeep and I am a Consultant Tech Engineer in Systems and Databases with 7+ years of hands-on experience at Mphasis Corp., specializing in building and optimizing reliable, high-performance database systems across Oracle, MySQL, PostgreSQL, MongoDB, MS SQL and YugabyteDB. Skilled in performance tuning, replication design, and infrastructure automation in Linux and hybrid cloud environments (GCP, AWS). Adept in SQL scripting, observability tooling, and DevOps practices to drive data-driven application performance. Known for a growth mindset, strong collaboration with cross-functional teams, and delivering scalable solutions for system-driven data and analytics platforms.
+about_content: |
+  Senior Database & Platform Engineer with nearly 8 years of experience designing, operating, and migrating mission-critical database systems across Oracle, PostgreSQL, MySQL, MongoDB, MS SQL, and YugabyteDB.
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  I specialize in high availability, disaster recovery, performance tuning, and secure cloud/hybrid deployments across AWS, GCP, and on-prem environments. My work spans Oracle RAC & Data Guard, large-scale migrations, 24x7 production on-call, and infrastructure automation using Linux, Shell, Python, and Terraform.
+
+  I'm known for calm incident response, deep root-cause analysis, and close collaboration with application, DevOps, and infrastructure teams to deliver reliable, scalable data platforms.
+
+  I am most skilled in: <mark>AWS</mark> and <mark>Oracle Cloud</mark>
 
 content:
   - title: Projects # Title for the section
@@ -72,27 +76,68 @@ content:
         description: | # this will include new lines to allow paragraphs
           I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
 
-  - title: Professional Experience # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Professional Experience
+    layout: list
     content:
       - layout: left
-        title: The Boring Company
-        link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
-        quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+        title: Mphasis Corporation
+        sub_title: Senior Database Administrator
+        caption: July 2018 – Present | Calgary, Canada
+        description: |
+            • Managed large-scale Oracle RAC (4-node) and Data Guard (8 replicas) environments with ASM storage exceeding 150 TB  
+            • Designed and secured CDB/PDB architectures with TDE encryption across Dev/UAT/Prod  
+            • Led complex Oracle, PostgreSQL, and MongoDB migrations across AWS, GCP, and on-prem  
+            • Reduced critical query runtimes from 91 minutes to under 10 minutes through tuning and indexing  
+            • Owned DR strategy, RMAN restores, FSFO, OEM 24ai monitoring, and compliance readiness  
+            • Provided 24x7 production on-call support and authored RCA reports for Sev-1 incidents
+
+  - title: Key Projects & Migrations
+    layout: list
+    content:
+      - layout: left
+        title: Oracle to PostgreSQL Hybrid Cloud Migration
+        caption: Oct 2023 – Feb 2024 | Calgary, Canada
+        description: |
+          • Led end-to-end migration from Oracle to PostgreSQL using AWS EC2 and RDS  
+          • Optimized schemas, removed unused objects, rebuilt DB links, and tuned batch workloads  
+          • Achieved 22% batch SLA reduction post-migration  
+          • Delivered zero-downtime cutover with validated rollback strategy  
+          Impact: Client recognition for preparedness and risk mitigation
+
+  - title: Home Lab & Personal Infrastructure
+    layout: list
+    content:
+      - layout: left
+        title: Self-Hosted DevOps & Database Lab
+        description: |
+          • Proxmox VE with Docker & Portainer  
+          • PostgreSQL-backed services (Nextcloud, Jellyfin, Plex)  
+          • Prometheus + Grafana observability stack  
+          • WireGuard VPN, NGINX reverse proxy, automated backups  
+          Purpose: Hands-on experimentation with infra-as-code, monitoring, and reliability engineering
+
+  - title: Skills & Technologies
+    layout: text
+    content: |
+      **Databases:** Oracle (RAC, Data Guard, GoldenGate), PostgreSQL, MySQL, MongoDB, MS SQL, YugabyteDB  
+      **Cloud:** AWS (RDS, EC2, S3), GCP, OCI  
+      **OS & Infra:** RHEL 7/8/9, Linux, Proxmox, Docker, Terraform, Ansible  
+      **Monitoring:** OEM 24ai, Prometheus, Grafana, Datadog  
+      **Scripting:** SQL, PL/SQL, Shell, Python  
+
+  - title: Certifications
+    layout: text
+    content: |
+      • Google Cloud Certified – Professional Cloud Database Engineer (2024)  
+      • AWS Certified Solutions Architect – Professional (Pursuing)
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
+        title: Anna University
+        caption: 2014 - 2018
+        sub_title: Bachelor of Engineering in Computer Science
         quote: >
           Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
         description: | # this will include new lines to allow paragraphs
