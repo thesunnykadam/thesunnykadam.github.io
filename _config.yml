@@ -89,7 +89,7 @@ content:
 #
 
   - title: Current Focus
-    layout: text
+    layout: list
     content:
         description: | # this will include new lines to allow paragraphs
           · Reliability engineering for database platforms
@@ -118,7 +118,7 @@ content:
     content:
       - layout: left
         title: Oracle to PostgreSQL Hybrid Cloud Migration
-        #caption: Oct 2023 – Feb 2024 | Calgary, Canada
+        caption: Canada
         description: |
           • Led end-to-end migration from Oracle to PostgreSQL using AWS EC2 and RDS  
           • Optimized schemas, removed unused objects, rebuilt DB links, and tuned batch workloads  
@@ -128,6 +128,7 @@ content:
 
       - layout: left
         title: "Home Lab: Self-Hosted SRE & Database Platform"
+		caption: Canada
         description: |
           • Proxmox VE with Docker & Portainer
           • PostgreSQL-backed services (Nextcloud, Jellyfin, Plex, etc.)
@@ -161,7 +162,7 @@ content:
       - layout: left
         title: Anna University
         caption: 2014 - 2018
-        sub_title: Bachelor of Engineering in Computer Science
+        sub_title: Bachelor of Engineering in Computer Science and Technology
         quote: >
           Established in 1978, Anna University is one of India's premier engineering institutions, renowned for its rigorous academic programs, research culture, and strong industry connections. The university emphasizes practical learning, innovation, and holistic development, producing graduates who are well-prepared to tackle complex technical challenges. My time at RMKCET, it nurtured my leadership, organizational, and problem-solving skills, providing a platform to take initiative, manage events, and mentor fellow students: all of which have shaped the professional I am today.
         description: | # this will include new lines to allow paragraphs
