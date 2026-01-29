@@ -48,23 +48,21 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: |
-  I'm a Senior Site Reliability & Database Platform Engineer with experience in designing, operating, and migrating mission-critical, data-intensive systems across on-prem, hybrid, and multi-cloud environments.
+  I'm a Senior Site Reliability & Database Platform Engineer with experience designing, operating, and migrating mission-critical, data-intensive systems across on-prem, hybrid, and multi-cloud environments.
 
-  My work sits at the intersection of databases, infrastructure, and reliability engineering — building platforms that are highly available, observable, secure, and resilient by design.
+  My work sits at the intersection of databases, infrastructure, and reliability engineering: building platforms that are highly available, observable, secure, and resilient by design.
 
-  I've led and supported large-scale systems spanning Oracle, PostgreSQL, MySQL, MongoDB, SQL Server, and YugabyteDB, with deep hands-on ownership of:
+  I’ve led and supported large-scale systems spanning Oracle, PostgreSQL, MySQL, MongoDB, SQL Server, and YugabyteDB, with deep hands-on ownership of:
 
-  · high availability & disaster recovery
-  · performance tuning under real production load
-  · zero-downtime migrations
-  · calm execution during Sev-1 incidents
+  - High availability and disaster recovery
+  - Performance tuning under real production load
+  - Zero-downtime migrations
+  - Calm execution during Sev-1 incidents
 
-  I'm known for strong ownership, deep root-cause analysis, and close collaboration with application, platform, DevOps, and security teams.
+  I’m known for strong ownership, deep root-cause analysis, and close collaboration with application, platform, DevOps, and security teams.
 
   <mark>Data builds systems. Reliability builds trust.</mark>
 
-quote: >
-  "Data builds systems. Reliability builds trust."
 
 content:
 
@@ -92,11 +90,11 @@ content:
     layout: list
     content:
         description: | # this will include new lines to allow paragraphs
-          · Reliability engineering for database platforms
-          · Oracle → PostgreSQL & cloud-native migrations
-          · Observability-driven operations (metrics first, opinions later)
-          · Infrastructure automation and toil reduction
-          · Designing systems that fail gracefully, not catastrophically
+          - Reliability engineering for database platforms
+          - Oracle → PostgreSQL & cloud-native migrations
+          - Observability-driven operations (metrics first, opinions later)
+          - Infrastructure automation and toil reduction
+          - Designing systems that fail gracefully, not catastrophically
 
   - title: Professional Experience
     layout: list
@@ -106,12 +104,12 @@ content:
         sub_title: Senior Software Engineer – Cloud, Database & Reliability Platforms
         caption: July 2018 – February 2026 | Calgary, AB, Canada
         description: |
-            • Led Oracle, PostgreSQL, MongoDB, and MySQL migrations across AWS, GCP, OCI, and hybrid on-prem
-            • Reduced critical query runtimes from 90+ minutes to under 5 minutes through indexing, execution-plan analysis, and schema redesign
-            • Owned DR strategy, RMAN recovery, FSFO observers, GoldenGate replication, and regular DR drills
-            • Built and maintained OEM 24ai, Prometheus, Grafana, and Datadog observability stacks
-            • Provided 24×7 production on-call, resolved Sev-1 incidents, and authored full RCA reports with permanent fixes
-            • Partnered with DevOps and cloud teams on capacity planning, automation, security hardening, and compliance readiness 
+            - Led Oracle, PostgreSQL, MongoDB, and MySQL migrations across AWS, GCP, OCI, and hybrid on-prem
+            - Reduced critical query runtimes from 90+ minutes to under 5 minutes through indexing, execution-plan analysis, and schema redesign
+            - Owned DR strategy, RMAN recovery, FSFO observers, GoldenGate replication, and regular DR drills
+            - Built and maintained OEM 24ai, Prometheus, Grafana, and Datadog observability stacks
+            - Provided 24×7 production on-call, resolved Sev-1 incidents, and authored full RCA reports with permanent fixes
+            - Partnered with DevOps and cloud teams on capacity planning, automation, security hardening, and compliance readiness 
 
   - title: Key Projects
     layout: list
@@ -120,79 +118,99 @@ content:
         title: Oracle to PostgreSQL Hybrid Cloud Migration
         caption: Canada
         description: |
-          • Led end-to-end migration from Oracle to PostgreSQL using AWS EC2 and RDS  
-          • Optimized schemas, removed unused objects, rebuilt DB links, and tuned batch workloads  
-          • Achieved 22% batch SLA reduction post-migration  
-          • Delivered zero-downtime cutover with validated rollback strategy  
-        caption: "Impact: Client recognition for preparedness and risk mitigation"
+          - Led end-to-end migration from Oracle to PostgreSQL using AWS EC2 and RDS  
+          - Optimized schemas, removed unused objects, rebuilt DB links, and tuned batch workloads  
+          - Achieved 22% batch SLA reduction post-migration  
+          - Delivered zero-downtime cutover with validated rollback strategy  
+          **Impact:** Client recognition for preparedness and risk mitigation
 
       - layout: left
         title: "Home Lab: Self-Hosted SRE & Database Platform"
-		caption: Canada
+        caption: Canada
         description: |
-          • Proxmox VE with Docker & Portainer
-          • PostgreSQL-backed services (Nextcloud, Jellyfin, Plex, etc.)
-          • Prometheus + Grafana observability stack, Adguard Home
-          • Tailscale VPN, SWAG reverse proxy, DUCK-DNS and ASUS-DNS, automated backups
-        caption: "Purpose: Hands-on experimentation with infra-as-code, monitoring, and reliability engineering"
+          - Proxmox VE with Docker & Portainer
+          - PostgreSQL-backed services (Nextcloud, Jellyfin, Plex, etc.)
+          - Prometheus + Grafana observability stack, Adguard Home
+          - Tailscale VPN, SWAG reverse proxy, DUCK-DNS and ASUS-DNS, automated backups
+          **Purpose:** Hands-on experimentation with infra-as-code, monitoring, and reliability engineering
 
   - title: Skills & Technologies
     layout: text
     content: |
-      **Databases:** Oracle (RAC, Data Guard, GoldenGate), PostgreSQL, MySQL, MongoDB, MS SQL, YugabyteDB
-      **Cloud & Platforms:** AWS, GCP, OCI-end-to-end and Azure (learning); RHEL 7/8/9, Linux, Proxmox, Kubernetes
-      **Reliability & Observability:** OEM 24ai, Prometheus, Grafana, Datadog, Backup & DR, Performance tuning, capacity planning, SLA management
-      **Scripting:** Terraform, Ansible, SQL, PL/SQL, Shell, Python
+      **Databases**
+      - Oracle (RAC, Data Guard, GoldenGate)
+      - PostgreSQL, MySQL, MongoDB, MS SQL, YugabyteDB
+	  
+      **Cloud & Platforms**
+      - AWS, GCP, OCI (end-to-end)
+      - Azure (learning)
+      - RHEL 7/8/9, Linux, Proxmox, Kubernetes
+	  
+      **Reliability & Observability**
+      - OEM 24ai, Prometheus, Grafana, Datadog
+      - Backup & DR, Performance tuning, Capacity planning, SLA management
+	  
+      **Scripting & Automation**
+      - Terraform, Ansible, SQL, PL/SQL, Shell, Python
 
   - title: Certifications
     layout: text
     content: |
-      • Google Cloud Certified – Professional Cloud Database Engineer (2024)  
-      • OCI Certified Professional – Architect (2026)
-      • AWS Certified Solutions Architect – Associate (2026)
-      • HashiCorp Certified - Terraform Associate (003) (in progress)
-      • Red Hat Certified Specialist - Ansible Automation (in progress)
-      • Google Cloud – Professional Cloud DevOps Engineer (planning)
-      • Microsoft Certified – Azure Database Administrator Associate (planning)
-      • CKA (Certified Kubernetes Administrator) (planning)
+      - Google Cloud Certified – Professional Cloud Database Engineer (2024)
+      - OCI Certified Professional – Architect (2026)
+      - AWS Certified Solutions Architect – Associate (2026)
+      - HashiCorp Certified – Terraform Associate (003) *(in progress)*
+      - Red Hat Certified Specialist – Ansible Automation *(in progress)*
+      - Google Cloud – Professional Cloud DevOps Engineer *(planning)*
+      - Microsoft Certified – Azure Database Administrator Associate *(planning)*
+      - CKA – Certified Kubernetes Administrator *(planning)*
 
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
+
+  - title: Education
+    layout: list
     content:
       - layout: left
         title: Anna University
-        caption: 2014 - 2018
-        sub_title: Bachelor of Engineering in Computer Science and Technology
-        quote: >
-          Established in 1978, Anna University is one of India's premier engineering institutions, renowned for its rigorous academic programs, research culture, and strong industry connections. The university emphasizes practical learning, innovation, and holistic development, producing graduates who are well-prepared to tackle complex technical challenges. My time at RMKCET, it nurtured my leadership, organizational, and problem-solving skills, providing a platform to take initiative, manage events, and mentor fellow students: all of which have shaped the professional I am today.
-        description: | # this will include new lines to allow paragraphs
-          Completed undergraduate studies in Computer Science, building a strong foundation in systems, programming, and software engineering, while actively engaging in technical leadership, hands-on projects, and community-driven learning.
+        sub_title: Bachelor of Engineering – Computer Science and Technology
+        caption: 2014 – 2018
+        description: |
+          Anna University is one of India’s leading public technical universities, known for its strong academic rigor, research culture, and industry-aligned engineering programs.
+    
+          Completed undergraduate studies in Computer Science, building a solid foundation in systems, programming, and software engineering.
+    
+          **Leadership & Campus Involvement**
+          - President, Computer Society of India (CSI)
+          - Patent & Projects Coordinator
+          - Events Organizer & Study Group Planner
+          - Computer Science Department Basketball Captain (2017)
+    
+          **Key Academic & Technical Work**
+          - Led the design and deployment of a Raspberry Pi–based classroom display system, replacing traditional projector PCs with lightweight Linux devices
+          - Reduced hardware cost and power consumption while improving classroom readiness and ease of maintenance
+          - Coordinated procurement, deployment, and faculty training
+    
+          **Early Systems & Open-Source Exploration**
+          - Hands-on Linux experience across Ubuntu, CentOS, Fedora, Arch Linux, and Debian
+          - Explored system internals, boot processes, service failures, and recovery techniques
+          - Active participation in the XDA Developers community, experimenting with Android ROM customization and kernel exploration
+    
+          These experiences shaped my early strengths in ownership, systems thinking, teamwork, and problem-solving: forming the foundation of my career in database platforms, infrastructure, and site reliability engineering.
 
-          Alongside academics, I held multiple student leadership roles including President of the Computer Society of India (CSI), where I coordinated technical workshops, seminars, peer-learning initiatives, and collaborated with faculty leadership to execute department-level technical activities and inter-college events. I also served as Patent & Projects Coordinator, Events Organizer, and Study Group Planner, supporting collaborative learning and technical skill development across the department.
-
-          As part of my academic projects, I led the design and implementation of a Raspberry Pi–based classroom display infrastructure, replacing traditional projector PCs with lightweight Linux-based systems. The solution reduced hardware costs and power consumption while improving classroom readiness and ease of maintenance, following coordination with faculty for procurement, deployment, and training.
-
-          Outside the classroom, I was actively involved in Linux systems exploration and self-managed environments, working across Ubuntu, CentOS, Fedora, Arch Linux, and Debian to understand system internals, boot processes, service failures, and recovery techniques. In parallel, I participated in the XDA Developers community, experimenting with Android ROM customization and kernel exploration to deepen my understanding of low-level systems and performance behavior.
-
-          I also served as Computer Science Department Basketball Captain (2017), balancing academics and leadership while coordinating teams and representing the department in inter-department competitions. These experiences collectively shaped my early strengths in ownership, teamwork, systems thinking, and problem-solving, which later became the foundation of my career in database platforms, infrastructure, and site reliability engineering.
 
   - title: A Little More About Me
     layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in systems and platforms engineering some of my other interests and hobbies are:
+    content: |
+      Outside of systems and platform engineering, I enjoy:
+    
       - Badminton and basketball
       - Hiking and exploring the outdoors
       - Spending quality time with family
-      - Reading and watching documentaries and biographies
-      - Listening to music
-      - Traveling and learning new things
-      - Trying skateboarding and ice-skating without falling
-      - Regular workouts at the gym
+      - Documentaries and biographies
+      - Music and travel
+      - Gym workouts
       - Fashion and shopping
-      - And more, haha
+      - Trying skateboarding and ice-skating (without falling… most days)
 
-      #Look at this cool image  
-      #![Trees](/modern-thesunnykadam.github.io/images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
