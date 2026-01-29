@@ -140,7 +140,7 @@ content:
       **Databases**
       - Oracle (RAC, Data Guard, GoldenGate)
       - PostgreSQL, MySQL, MongoDB, MS SQL, YugabyteDB
-	  
+	
       **Cloud & Platforms**
       - AWS, GCP, OCI (end-to-end)
       - Azure (learning)
