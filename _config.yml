@@ -15,19 +15,19 @@ website: thesunnykadam.github.io
 darkmode: false
 
 # Social links
-#twitter_username: sunnysandeep161
 github_username:  thesunnykadam
 # stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
+# dribbble_username: thesunnykadam
+facebook_username: thesunnykadam
+# flickr_username: thesunnykadam
 instagram_username: thesunnykadam
 linkedin_username: thekadamsandeep
-# xing_username: jekyll
-# pinterest_username: jekyll
+# xing_username: thesunnykadam
+# pinterest_username: thesunnykadam
 #youtube_username: thesunnykadam0
-# googleplus_username: +jekyll
+# googleplus_username: +thesunnykadam
 # orcid_username: 0000-0000-0000-0000
+twitter_username: sunnysandeep161
 
 # Additional icon links
 additional_links:
@@ -87,13 +87,17 @@ content:
 #
 
   - title: Current Focus
-    layout: text
-    content: |
-      - Reliability engineering for database platforms
-      - Oracle → PostgreSQL & cloud-native migrations
-      - Observability-driven operations (metrics first, opinions later)
-      - Infrastructure automation and toil reduction
-      - Designing systems that fail gracefully, not catastrophically
+    layout: list
+    content:
+      - layout: left
+        title: Focus Areas
+        description: |
+          - Reliability engineering for database platforms
+          - Oracle → PostgreSQL & cloud-native migrations
+          - Observability-driven operations (metrics first, opinions later)
+          - Infrastructure automation and toil reduction
+          - Designing systems that fail gracefully, not catastrophically
+
 
   - title: Professional Experience
     layout: list
