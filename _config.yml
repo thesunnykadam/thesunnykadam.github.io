@@ -124,7 +124,7 @@ content:
           • Optimized schemas, removed unused objects, rebuilt DB links, and tuned batch workloads  
           • Achieved 22% batch SLA reduction post-migration  
           • Delivered zero-downtime cutover with validated rollback strategy  
-        caption: Impact: Client recognition for preparedness and risk mitigation
+        caption: "Impact: Client recognition for preparedness and risk mitigation"
 
       - layout: left
         title: Home Lab: Self-Hosted SRE & Database Platform
@@ -133,7 +133,7 @@ content:
           • PostgreSQL-backed services (Nextcloud, Jellyfin, Plex, etc.)
           • Prometheus + Grafana observability stack, Adguard Home
           • Tailscale VPN, SWAG reverse proxy, DUCK-DNS and ASUS-DNS, automated backups
-          Purpose: Hands-on experimentation with infra-as-code, monitoring, and reliability engineering
+        caption: "Purpose: Hands-on experimentation with infra-as-code, monitoring, and reliability engineering"
 
   - title: Skills & Technologies
     layout: text
