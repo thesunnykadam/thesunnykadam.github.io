@@ -87,15 +87,13 @@ content:
 #
 
   - title: Current Focus
-    layout: list
-    content:
-      - layout: left
-        description: |
-          - Reliability engineering for database platforms
-          - Oracle → PostgreSQL & cloud-native migrations
-          - Observability-driven operations (metrics first, opinions later)
-          - Infrastructure automation and toil reduction
-          - Designing systems that fail gracefully, not catastrophically
+    layout: text
+    content: |
+      - Reliability engineering for database platforms
+      - Oracle → PostgreSQL & cloud-native migrations
+      - Observability-driven operations (metrics first, opinions later)
+      - Infrastructure automation and toil reduction
+      - Designing systems that fail gracefully, not catastrophically
 
   - title: Professional Experience
     layout: list
@@ -226,4 +224,3 @@ sass:
 
 plugins:
  - jekyll-seo-tag
-
