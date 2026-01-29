@@ -89,7 +89,8 @@ content:
   - title: Current Focus
     layout: list
     content:
-        description: | # this will include new lines to allow paragraphs
+      - layout: left
+        description: |
           - Reliability engineering for database platforms
           - Oracle → PostgreSQL & cloud-native migrations
           - Observability-driven operations (metrics first, opinions later)
@@ -140,16 +141,16 @@ content:
       **Databases**
       - Oracle (RAC, Data Guard, GoldenGate)
       - PostgreSQL, MySQL, MongoDB, MS SQL, YugabyteDB
-	
+
       **Cloud & Platforms**
       - AWS, GCP, OCI (end-to-end)
       - Azure (learning)
       - RHEL 7/8/9, Linux, Proxmox, Kubernetes
-	  
+
       **Reliability & Observability**
       - OEM 24ai, Prometheus, Grafana, Datadog
       - Backup & DR, Performance tuning, Capacity planning, SLA management
-	  
+
       **Scripting & Automation**
       - Terraform, Ansible, SQL, PL/SQL, Shell, Python
 
@@ -225,3 +226,4 @@ sass:
 
 plugins:
  - jekyll-seo-tag
+
