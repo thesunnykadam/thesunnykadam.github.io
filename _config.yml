@@ -37,7 +37,7 @@ additional_links:
 
   - title: Email
     icon: fas fa-envelope
-    url: mailto:thekadamsandeep@gmail.com
+    url: "mailto:thekadamsandeep@gmail.com"
 
   - title: Instagram
     icon: fab fa-instagram
