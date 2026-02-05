@@ -9,7 +9,7 @@ version: 2
 name: Sandeep Kumar Kadam
 title: Senior Site Reliability & Database Platform Engineer
 email: thekadamsandeep@gmail.com
-website: thesunnykadam.github.io
+website: sunser.asuscomm.com
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -19,12 +19,12 @@ linkedin_username: thekadamsandeep
 instagram_username: thesunnykadam
 twitter_username: thesunnykadam
 facebook_username: thesunnykadam
-github_username:  thesunnykadam
+# github_username:  thesunnykadam
 # stackoverflow_username: "00000001"
 # dribbble_username: thesunnykadam
 # flickr_username: thesunnykadam
 # xing_username: thesunnykadam
-# pinterest_username: thesunnykadam
+pinterest_username: thesunnykadam
 #youtube_username: thesunnykadam0
 # googleplus_username: +thesunnykadam
 # orcid_username: 0000-0000-0000-0000
