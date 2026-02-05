@@ -8,36 +8,56 @@ version: 2
 # Personal info
 name: Sandeep Kumar Kadam
 title: Senior Site Reliability & Database Platform Engineer
-email: thekadamsandeep@gmail.com
-website: sunser.asuscomm.com
+# email: thekadamsandeep@gmail.com
+# website: sunser.asuscomm.com
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-linkedin_username: thekadamsandeep
-instagram_username: thesunnykadam
-twitter_username: thesunnykadam
-facebook_username: thesunnykadam
+#linkedin_username: thekadamsandeep
+#instagram_username: thesunnykadam
+#twitter_username: thesunnykadam
+#facebook_username: thesunnykadam
 # github_username:  thesunnykadam
 # stackoverflow_username: "00000001"
 # dribbble_username: thesunnykadam
 # flickr_username: thesunnykadam
 # xing_username: thesunnykadam
-pinterest_username: thesunnykadam
+#pinterest_username: thesunnykadam
 #youtube_username: thesunnykadam0
 # googleplus_username: +thesunnykadam
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
 additional_links:
-- title: thesunnykadam.github.io
-  icon: fas fa-globe
-  url: https://thesunnykadam.github.io
+  - title: LinkedIn
+    icon: fab fa-linkedin
+    url: https://www.linkedin.com/in/thekadamsandeep
 
-- title: Snap me 👻
-  icon: fab fa-snapchat
-  url: https://www.snapchat.com/add/thesunnykadam
+  - title: Instagram
+    icon: fab fa-instagram
+    url: https://www.instagram.com/thesunnykadam
+
+  - title: Website
+    icon: fas fa-globe
+    url: https://sunser.asuscomm.com
+
+  - title: Snapchat
+    icon: fab fa-snapchat
+    url: https://www.snapchat.com/add/thesunnykadam
+
+  - title: Twitter
+    icon: fab fa-twitter
+    url: https://twitter.com/thesunnykadam
+
+  - title: Pinterest
+    icon: fab fa-pinterest
+    url: https://www.pinterest.com/thesunnykadam
+
+  - title: Facebook
+    icon: fab fa-facebook
+    url: https://www.facebook.com/thesunnykadam
 
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
