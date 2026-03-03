@@ -131,7 +131,7 @@ content:
   - title: Professional Experience
     layout: list
     content:
-	  - layout: left
+      - layout: left
         title: Oracle Corporation
         sub_title: Senior Site Reliability Engineer – Cloud, Database & DevOps
         caption: February 2026 | Canada - Remote
