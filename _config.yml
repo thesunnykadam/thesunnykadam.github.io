@@ -135,6 +135,12 @@ content:
         title: Oracle Corporation
         sub_title: Senior Site Reliability Engineer – Cloud, Database & DevOps
         caption: February 2026 | Canada - Remote
+        description: |
+            - Senior Reliability Database Engineer and Site Developer focused on building reliable, scalable, and production-grade database infrastructure
+            - Ensuring availability and resilience of mission-critical systems
+            - Driving automation to reduce operational toil
+            - Improving observability and incident response processes
+            - Working with database and cloud infrastructure at scale
 
       - layout: left
         title: Mphasis Group
@@ -146,7 +152,7 @@ content:
             - Owned DR strategy, RMAN recovery, FSFO observers, GoldenGate replication, and regular DR drills
             - Built and maintained OEM 24ai, Prometheus, Grafana, and Datadog observability stacks
             - Provided 24×7 production on-call, resolved Sev-1 incidents, and authored full RCA reports with permanent fixes
-            - Partnered with DevOps and cloud teams on capacity planning, automation, security hardening, and compliance readiness 
+            - Partnered with DevOps and cloud teams on capacity planning, automation, security hardening, and compliance readiness
 
   - title: Key Projects
     layout: list
